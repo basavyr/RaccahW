@@ -11,5 +11,6 @@ double RaccahW::funcW(double a, double b, double c)
 void RaccahW::showResult()
 {
     cout << "This is Raccah-W source file"
-         << " " << funcW(a, b, c) << "\n";
+         << "\n";
+    cout << funcW(a, b, c);
 }
